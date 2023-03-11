@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Formulário</h1>
+        </div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Digite aqui o seu nome" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite aqui o seu e-mail">
+                </div>
+                <div class="input-box">
+                    <label for="telefone">Telefone</label>
+                    <input id="telefone" type="tel" name="telefone" placeholder="Digite aqui o seu telefone">
+                </div>
+                <div class="input-box">
+                    <label for="cep">CEP</label>
+                    <input id="cep" type="text" name="cep" placeholder="Digite aqui o seu CEP" minlength="8" maxlength="8" required>
+                </div>
+                <div class="input-box">
+                    <label for="endereco">Endereço</label>
+                    <input id="endereco" type="text" name="endereco" placeholder="Endereço" disabled>
+                </div>
+                <div class="input-box">
+                    <label for="numero">Número</label>
+                    <input id="numero" type="text" name="numero" placeholder="Digite aqui o número" required>
+                </div>
+                <div class="input-box">
+                    <label for="complemento">Complemento</label>
+                    <input id="complemento" type="text" name="complemento" placeholder="Digite aqui o complemento" required>
+                </div>
+                <div class="input-box">
+                    <label for="bairro">Bairro</label>
+                    <input id="bairro" type="text" name="bairro" placeholder="Bairro" disabled>
+                </div>
+                <div class="input-box">
+                    <label for="cidade">Cidade</label>
+                    <input id="cidade" type="text" name="cidade" placeholder="Cidade" disabled>
+                </div>
+                <div class="input-box">
+                    <label for="estado">Estado</label>
+                    <input id="estado" type="text" name="estado" placeholder="UF" disabled>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
